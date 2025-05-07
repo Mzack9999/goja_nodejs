@@ -1,4 +1,6 @@
 github.com/Masterminds/semver/v3 v3.2.1 h1:RN9w6+7QoMeJVGyfmbcgs28Br8cvmnucEXnY0rYXWg0=
+github.com/Mzack9999/goja v0.0.0-20250507184006-b11c348e4977 h1:aGSIDJ3Gk8r36z4N5Drm7Idni5OSXwZjaJJ+ViAe1xY=
+github.com/Mzack9999/goja v0.0.0-20250507184006-b11c348e4977/go.mod h1:1EB8ey08GEorFdu/ApTzwT5i5YMWwtBMIhc0hDLZWC4=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/dlclark/regexp2 v1.11.4 h1:rPYF9/LECdNymJufQKmri9gV604RvvABwgOA8un7yAo=
 github.com/dlclark/regexp2 v1.11.4/go.mod h1:DHkYz0B9wPfa6wondMfaivmHpzrQ3v9q8cnmRbL6yW8=
