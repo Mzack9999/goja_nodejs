@@ -26,7 +26,7 @@ runs:
       shell: bash
       run: |
         for pkg in ${{ steps.vars.outputs.PKGS }}; do
-          jq --arg version "${{ inputs.VERSION }}" '.dependencies."@dop251/types-goja_nodejs-global" = $version' $pkg/types/package.json > $pkg/types/tmp.json && mv $pkg/types/tmp.json $pkg/types/package.json
+          jq --arg version "${{ inputs.VERSION }}" '.dependencies."@Mzack9999/types-goja_nodejs-global" = $version' $pkg/types/package.json > $pkg/types/tmp.json && mv $pkg/types/tmp.json $pkg/types/package.json
         done
     - name: Setup nodejs
       uses: actions/setup-node@v2

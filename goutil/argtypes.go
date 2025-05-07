@@ -3,8 +3,8 @@ package goutil
 import (
 	"math/big"
 
-	"github.com/dop251/goja"
-	"github.com/dop251/goja_nodejs/errors"
+	"github.com/Mzack9999/goja"
+	"github.com/Mzack9999/goja_nodejs/errors"
 )
 
 func RequiredIntegerArgument(r *goja.Runtime, call goja.FunctionCall, name string, argIndex int) int64 {
